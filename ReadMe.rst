@@ -12,9 +12,9 @@ links to related materials:
 none
 
 Steps to use:
-***********************************************************************************************************************************************************************************
+*******************************************************************************************************************************
 In windows:
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 # Clang + make in windows command prompt:
 Setup:
 1.	Download and install LLVM 11 from https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/LLVM-11.0.0-win64.exe. After install, please verify the clang version is 11.0.0. as below.
@@ -52,7 +52,7 @@ To Use:
 	C:\Users\%USERNAME%\edk2>git clean -dfx (use this command if you have download it before, else please ignore thie command)
 	C:\Users\%USERNAME%\edk2>edksetup.bat
 	C:\Users\%USERNAME%\edk2>C:\Users\%USERNAME%\.conan\data\make\4.2.1\_\_\package\0a420ff5c47119e668867cdb51baff0eca1fdb68\bin\gnumake.exe -w -C BaseTools CXX=llvm
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 # Clang + nmake in windows command prompt:
 Setup:
 1.	Download and install LLVM 11 from https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/LLVM-11.0.0-win64.exe. After install, please verify the clang version is 11.0.0. as below.
@@ -79,7 +79,7 @@ Setup:
 To Use:
 	C:\Users\%USERNAME%\edk2>git clean -dfx (use this command if you have download it before, else please ignore thie command)
 	C:\Users\%USERNAME%\edk2>edksetup.bat ForceRebuild clang
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 # MSVC + nmake in windows command prompt:
 Setup:
 1.	Download and install LLVM 11 from https://github.com/llvm/llvm-project/releases/download/llvmorg-11.0.0/LLVM-11.0.0-win64.exe. After install, please verify the clang version is 11.0.0. as below.
@@ -106,10 +106,9 @@ Setup:
 To Use:
 	C:\Users\%USERNAME%\edk2>git clean -dfx (use this command if you have download it before, else please ignore thie command)
 	C:\Users\%USERNAME%\edk2>edksetup.bat ForceRebuild
-
-***********************************************************************************************************************************************************************************
+*******************************************************************************************************************************
 In Linux:
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 # GCC + make:
 Setup:
 1.	Download and install LLVM 11:
@@ -136,7 +135,7 @@ To Use:
 	%USERNAME%:~/edk2$ git clean -dfx	(use this command if you have download it before, else please ignore thie command)
 	%USERNAME%:~/edk2$ source edksetup.sh
 	%USERNAME%:~/edk2$ make -C BaseTools/ 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 # Clang + make:
 Setup:
 1.	Download and install LLVM 11:
